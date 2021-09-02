@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-7-</title>
+    <style type="text/css">
+    body{
+        background-color: goldenrod;
+    }
+    </style>
+</head>
+
+<body>
+    <form action="a.php" method="POST">
+    <div>
+    <label for="username"> User name:-</label>
+    <br>
+    <input type="text" required autofocus placeholder=" Enter user name" name="username">
+    </div>
+
+    <hr>
+
+    <div> 
+    <label for="password"> Password:-</label>
+    <br>
+    <input type="password" required placeholder=" Enter password" name="password">
+    </div>
+
+    <hr>
+
+    <div> 
+    <label for="Mobile"> Mobile:-</label>
+    <br>
+    <input type="tel" required placeholder="Enter the phone number" name="phone" value="+9647701111111">
+    </div>
+
+    <hr>
+
+    <div> <label for="email"> Email:-</label>
+    <br>
+    <input type="email" required placeholder="Enter your email " name="email ">
+    </div>
+
+    <hr>
+    
+    <div> 
+    <label for="subject"> Subject:-</label>
+    <br>
+    <input type="text" required placeholder="Enter subject" list="subject" name="subject ">
+    <datalist id="mysearch">
+    <option value="French"></option>
+    <option value="arabic"></option>
+    <option value="english"></option>
+    </datalist>
+    </div>
+
+    <hr>
+    <div>
+    <input type="submit" name="send" value="send">
+    </div>
+</body>
+
+</html>
